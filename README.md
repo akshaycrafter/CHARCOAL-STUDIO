@@ -1,4 +1,4 @@
-# CODEX — Design Studio
+# CHARCOAL STUDIO — Design Studio
 
 A dark, editorial-style landing page for a design studio. One-page, no fluff, no stock photos.
 
@@ -51,7 +51,7 @@ Everything ships as index.html + css/style.css + js/script.js on purpose. No npm
 ## Running it locally
 
 ```
-codex-automation-/
+charcoal-studio-/
 ├── index.html
 ├── css/
 │ └── style.css

@@ -5,16 +5,6 @@ html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
 ::selection{background:rgba(239,239,239,0.1)}
 
-/* LOADER */
-#loader{position:fixed;inset:0;background:var(--bg);z-index:10000;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:36px;transition:opacity .9s var(--ease),visibility .9s}
-#loader.hidden{opacity:0;visibility:hidden;pointer-events:none}
-.ldr-word{font-family:var(--head);font-size:clamp(56px,12vw,140px);font-weight:800;letter-spacing:-0.04em;overflow:hidden}
-.ldr-word span{display:block;transform:translateY(110%);transition:transform 1s var(--ease2)}
-.ldr-word.vis span{transform:translateY(0)}
-.ldr-bar{width:100px;height:1px;background:var(--fg3);position:relative;overflow:hidden} 
-.ldr-bar::after{content:'';position:absolute;inset:0;background:var(--fg);transform:scaleX(0);transform-origin:left;transition:transform 1.9s var(--ease)}
-.ldr-bar.fill::after{transform:scaleX(1)}
-
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:28px 64px;transition:padding .5s var(--ease),background .5s,border-color .5s;border-bottom:1px solid transparent}

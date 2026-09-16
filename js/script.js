@@ -1,17 +1,4 @@
 
-/* LOADER */
-window.addEventListener('DOMContentLoaded',()=>{
-  const loader=document.getElementById('loader');
-  const lbar=document.getElementById('lbar');
-  const word=loader.querySelector('.ldr-word');
-  setTimeout(()=>word.classList.add('vis'),80);
-  setTimeout(()=>lbar.classList.add('fill'),280);
-  setTimeout(()=>{
-    loader.classList.add('hidden');
-    initHero();
-  },2300);
-});
-
 function initHero(){
   document.querySelectorAll('.hero .reveal-line').forEach((el,i)=>{
     setTimeout(()=>el.classList.add('in'),i*130);
@@ -20,6 +7,7 @@ function initHero(){
     setTimeout(()=>el.classList.add('in'),i*110+180);
   });
 }
+initHero();
 
 /* MAGNETIC */
 document.querySelectorAll('.mag-btn').forEach(btn=>{
@@ -73,7 +61,7 @@ const cio=new IntersectionObserver(entries=>{
 },{threshold:.5});
 document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
 
-/* CODEX */
+/* CHARCOAL STUDIO */
 document.getElementById('contactForm').addEventListener('submit',e=>{
   e.preventDefault();
   const btn=document.getElementById('formBtn');

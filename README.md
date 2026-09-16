@@ -2,7 +2,7 @@
 
 A dark, editorial-style landing page for a design studio. One-page, no fluff, no stock photos.
 
-🔗 **Live:** https://codex-agent.akshaycodecrafter.workers.dev/
+🔗 **Live:** https://charcoal-studio.akshaycodecrafter.workers.dev/
 
 ## Preview
 

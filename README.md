@@ -2,15 +2,15 @@
 
 A dark, editorial-style landing page for a design studio. One-page, no fluff, no stock photos.
 
- **Live:** https://charcoal-studio.akshaycodecrafter.workers.dev/
+**Live:** https://charcoal-studio.akshaycodecrafter.workers.dev/
 
 ## Preview
 
 ![Hero section showing "We Design Silence." headline with tagline and scroll cue](assets/preview-hero.png)
 *The hero section displays "We Design Silence." as its main headline, alongside a tagline about precision-led design, a scroll cue at the bottom, and meta rows for location (Mumbai, IN), availability (Q2 2025 — Open), and three project stats.*
 
-![Work section showing featured Arkos case study and 3-up grid of service cards](assets/preview-work.png)
-*The work section features Arkos Financial Group as the highlighted case study (Brand Identity — 2024) above a three-card grid of Brand Identity, Web Design, and App Design, each with a minimal inline SVG icon.*
+![Work section showing featured Meridian case study and 3-up grid of service cards](assets/preview-work.png)
+*The work section features Meridian Financial Group as the highlighted case study (Brand Identity — 2024) above a three-card grid of Brand Identity, Web Design, and App Design, each with a minimal inline SVG icon.*
 
 ![About section showing "We Don't Decorate. We Solve." and four stat counters](assets/preview-about.png)
 *The about section headlines "We Don't Decorate. We Solve." with a body paragraph about design as a precision instrument, plus four animated counters: 148+ projects delivered, 97% client retention, 5 years of precision, and 12 industry awards.*
@@ -51,14 +51,14 @@ Everything ships as index.html + css/style.css + js/script.js on purpose. No npm
 ## Running it locally
 
 ```
-charcoal-studio-/
+charcoal-studio/
 ├── index.html
 ├── css/
 │ └── style.css
 ├── js/
 │ └── script.js
 └── assets/
-└── favicon.svg
+    └── favicon.svg
 ```
 Clone it, open index.html in a browser. That's it.
 
